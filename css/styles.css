@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+    /* background-color: #EDEDF0;
+    border: 1px #0060DF dashed; */
+}
+
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav.menu{
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: 1.35fr .65fr;
+}
+
+/* header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 30;
+    box-shadow: 0 0 6px 0 rgba(87, 87, 105,0.8);
+} */
+
+header ul{
+    display: flex;
+    padding: 0;
+}
+
+header .menu_logo{
+    margin: auto 0;
+}
+
+header ul li{
+    margin: auto 0;
+    margin-left: 50px;
+}
+
+header ul li a{
+    color: #000000;
+    font-weight: bold;
+}
+
+header ul:nth-of-type(2){
+    justify-self: right;
+}
+
+header .menu_button{
+    border: 2px solid #0060DF;
+    padding: 10px;
+    margin: 0;
+}
+
+header .menu_button a{
+    color: #0060DF;
+}
+
+.hero-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.hero-info{
+    align-self: center;
+}
+
+
+.hero-info img{
+    height: 41px;
+    width: 125px;
+    margin-bottom: 10px;
+}
+
+.hero-info h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-info p{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.hero-info a{
+    display: block;
+    color: #000000;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+a.hero_button{
+    display: inline-block;
+    background-color: #0060DF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding:  15px 30px;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.hero-image > img{
+    height: 395px;
+    width: 630px;
+}
+
+
+.banner > .container{
+    background-color: #EDEDF0;
+}
+
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px 0;
+}
+
+.banner-image{
+    justify-self: right;
+}
+
+.banner-image img{
+    width: 346px;
+    height: 263px;
+}
+
+.banner-info{
+    justify-self: left;
+    align-self: center;
+    text-align: center;
+    padding: 0 180px 0 50px;
+}
+
+.banner-info h2{
+    font-size: 40px;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px 0;
+}
+
+.about-ourImpact{
+    border-right: 1px solid #000;
+}
+
+.about-content > div{
+    padding: 0 50px;
+}
+
+.about-content h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-content p{
+    margin-bottom: 20px;
+}
+
+.about-content li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+.about-content li > a{
+    color: #0060DF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about-content ul{
+    padding-left: 50px;
+}
+
+.cards-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 0;
+}
+
+.cards-content ul{
+    align-self: center;
+    text-align: center;
+    padding: 0 80px;
+}
+
+.cards-content ul li > img{
+    margin-bottom: 30px;
+}
+
+.cards-content ul li > h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0060DF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 32px;
+}
+
+.contact-imagen{
+    justify-self: right;
+    align-self: center;
+}
+
+.contact-info{
+    align-self: center;
+    padding-right: 180px;
+}
+
+.contact-info h3{ 
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-info p{
+    font-size: 14px;
+    color: #5E5E72;
+    margin-bottom: 10px;
+}
+
+.contact-info form > input{
+    border: 1px solid #42425a;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-info button.submit{
+    width: 100%;
+    background-color: #000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px 30px;
+}
+
+.contact-info button + p{
+    text-align: center;
+}
