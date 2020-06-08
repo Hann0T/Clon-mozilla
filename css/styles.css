@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-	width: 100%;
+	width: 80%;
 	max-width: 1200px;
 	margin: 0 auto;
 	
@@ -27,7 +27,7 @@ ul, li, a{
 nav.menu{
 	padding: 25px 0;
 	display: grid;
-	grid-template-columns: 1.35fr .65fr;
+	grid-template-columns: 1.6fr .4fr;
 }
 
 /* header{
@@ -120,8 +120,9 @@ a.hero_button{
 }
 
 .hero-image > img{
-	height: 395px;
-	width: 630px;
+	/* height: 395px;
+	width: 630px; */
+	width: 100%;
 }
 
 
